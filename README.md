@@ -2,8 +2,8 @@
 The A* algorithm is a search algorithm that finds the shortest path between a start and an end node while navigating around obstacles. It’s widely used because of its efficiency, balancing path accuracy and computational cost by combining two key factors:
 1. G-Score: The actual cost from the start node to the current node.
 2. H-Score (Heuristic): The estimated cost from the current node to the end node.
-3. The A* algorithm maintains a priority queue (open set) where nodes are prioritized based on their F-Score:
-   F = G + H
+3. The A* algorithm maintains a priority queue (open set) where nodes are prioritized based on their F-Score:<br />
+   F = G + H <br />
    G represents the known path cost so far.
    H represents the heuristic estimation of remaining cost.
 
